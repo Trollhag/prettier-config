@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trollhag/prettier-config.git"
+    "url": "https://github.com/trollhag/prettier-config.git"
   },
   "license": "MIT",
-  "author": "Oscar Trollhag <oscar.trollhag@proton.me> (https://trollhag.com)",
+  "author": "Oscar Trollhag <oscar@trollhag.com> (https://trollhag.com)",
   "main": "index.js",
   "files": [
     ".prettierrc.json",
