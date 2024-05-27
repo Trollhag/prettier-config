@@ -1,0 +1,32 @@
+{
+  "name": "@trollhag/prettier-config",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "prettier",
+    "prettierrc",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/trollhag/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/trollhag/prettier-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trollhag/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Oscar Trollhag <oscar.trollhag@proton.me> (https://trollhag.com)",
+  "main": "index.js",
+  "files": [
+    ".prettierrc.json",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "prettier": "^3.2.5"
+  }
+}
