@@ -1,6 +1,7 @@
 # @trollhag/prettier-config
 
-[![ci](https://github.com/trollhag/prettier-config/workflows/ci/badge.svg)](https://github.com/trollhag/prettier-config/actions/workflows/ci.yml)
+[![push](https://github.com/Trollhag/prettier-config/actions/workflows/ci.push.yml/badge.svg)](https://github.com/Trollhag/prettier-config/actions/workflows/ci.push.yml)
+[![release](https://github.com/Trollhag/prettier-config/actions/workflows/ci.release.yml/badge.svg)](https://github.com/Trollhag/prettier-config/actions/workflows/ci.release.yml)
 [![license](https://img.shields.io/github/license/trollhag/prettier-config.svg)](https://github.com/trollhag/prettier-config/blob/main/LICENSE)
 
 ## Installation
