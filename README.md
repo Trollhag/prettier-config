@@ -1,20 +1,13 @@
 # @trollhag/prettier-config
 
-[![push](https://github.com/Trollhag/prettier-config/actions/workflows/ci.push.yml/badge.svg)](https://github.com/Trollhag/prettier-config/actions/workflows/ci.push.yml)
-[![release](https://github.com/Trollhag/prettier-config/actions/workflows/ci.release.yml/badge.svg)](https://github.com/Trollhag/prettier-config/actions/workflows/ci.release.yml)
+[![test](https://github.com/Trollhag/prettier-config/actions/workflows/test.yml/badge.svg)](https://github.com/Trollhag/prettier-config/actions/workflows/test.yml)
+[![release](https://github.com/Trollhag/prettier-config/actions/workflows/release.yml/badge.svg)](https://github.com/Trollhag/prettier-config/actions/workflows/release.yml)
 [![license](https://img.shields.io/github/license/trollhag/prettier-config.svg)](https://github.com/trollhag/prettier-config/blob/main/LICENSE)
 
 ## Installation
 
-Set registry scope in `.npmrc`
-
-```
-@trollhag:registry=https://npm.pkg.github.com
-```
-
-Install
 ```shell script
-npm i -D prettier @trollhag/prettier-config
+npm i --save-dev prettier @trollhag/prettier-config
 ```
 
 ## Usage
