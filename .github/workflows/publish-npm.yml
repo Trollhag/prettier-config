@@ -21,7 +21,8 @@ jobs:
           always-auth: true
 
       - run: cat $NPM_CONFIG_USERCONFIG
-      - run: echo ${{ secrets.NPM_TOKEN }}
+      - run: "echo ${{ toJson(contains(secrets.NPM_TOKEN, 'npm_gnIs')) }}"
+      - run: npm ci
 
       - name: Publish
         run: npm publish --access public

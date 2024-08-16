@@ -2,18 +2,14 @@
   "name": "@trollhag/prettier-config",
   "version": "0.0.3",
   "description": "",
-  "keywords": [
-    "prettier",
-    "prettierrc",
-    "prettier-config"
-  ],
+  "keywords": [],
   "homepage": "https://github.com/trollhag/prettier-config#readme",
   "bugs": {
     "url": "https://github.com/trollhag/prettier-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trollhag/prettier-config.git"
+    "url": "git+https://github.com/trollhag/prettier-config.git"
   },
   "license": "MIT",
   "author": "Oscar Trollhag <oscar@trollhag.com> (https://trollhag.com)",
