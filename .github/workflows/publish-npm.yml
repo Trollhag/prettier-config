@@ -23,9 +23,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
           always-auth: true
 
-      - run: cat $NPM_CONFIG_USERCONFIG
-      - run: echo ${{ toJson(startsWith(secrets.NPM_TOKEN, 'npm_gnIs')) }}
-
       - name: Publish
         run: npm publish --access public
         env:
