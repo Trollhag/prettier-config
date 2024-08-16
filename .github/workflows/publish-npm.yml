@@ -20,8 +20,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
           always-auth: true
           scope: '@trollhag'
+          cache: npm
 
-      - run: cat .npmrc
+      - run: cat $NPM_CONFIG_USERCONFIG
 
       - name: Publish
         run: npm publish --access public
