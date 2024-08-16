@@ -19,9 +19,9 @@ jobs:
           node-version: 20.x
           registry-url: https://registry.npmjs.org/
           always-auth: true
-          scope: '@trollhag'
 
       - run: cat $NPM_CONFIG_USERCONFIG
+      - run: echo ${{ secrets.NPM_TOKEN }}
 
       - name: Publish
         run: npm publish --access public
