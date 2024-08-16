@@ -2,6 +2,9 @@ name: publish-npm
 
 on:
   workflow_call:
+    secrets:
+      NPM_TOKEN:
+        required: true
 
 jobs:
   publish:
@@ -21,8 +24,7 @@ jobs:
           always-auth: true
 
       - run: cat $NPM_CONFIG_USERCONFIG
-      - run: "echo ${{ toJson(contains(secrets.NPM_TOKEN, 'npm_gnIs')) }}"
-      - run: npm ci
+      - run: echo ${{ toJson(startsWith(secrets.NPM_TOKEN, 'npm_gnIs')) }}
 
       - name: Publish
         run: npm publish --access public
